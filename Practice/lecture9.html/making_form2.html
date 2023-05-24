@@ -28,8 +28,9 @@
         <br/>
         <input type="file" name="resume1" id="resume1">
         <br/>
-        
-
+        <br/>
+        <label for="counter">Experience(years):</label>
+        <input type="number" name="counter" id="counter" min="0" max="50">
 
 
 
@@ -49,18 +50,33 @@
             <br/>
             <br/>
             <input type="checkbox" name="checkbox" id="javasriptskill">
-            <label for="javaskriptskill">JvaScript</label>
+            <br/>
+            <label for="javaskriptskill">Java Script</label>
         </fieldset>
         <br/>
         <label for="education">Highest Education: </label>
         <br/>
         <select name="education" id="education">
             <option value="highschool">HIgh school</option>
-            <option value="matrix">Matrix</option>
+            <option value="matrix">Matric</option>
             <option value="graduetion">Graduation</option>
         </select>
-        
 
+        <h3>Availability :</h3>
+        <input type="radio" name="availability" id="availability1">
+        <label for="availability1">Full-time</label>
+        <br/>
+        <input type="radio" name="availability" id="availability2">
+        <label for="availability2">Part-time</label>
+        <br/>
+        <br/>
+
+        <label for="textarea1"> <h3>Additional comments:</h3> </label>
+        <textarea name="textarea1" id="textarea1" cols="30" rows="10" placeholder="write comment here...."></textarea>
+
+        
+        <br/>
+        <input type="submit" value="Submit Application">
     </form>
 </body>
 </html>
