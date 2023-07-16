@@ -17,22 +17,43 @@
             </p>
         </secion>
         <form >
-            <input type="text" name="name" id="name" placeholder="Full Name">
-            <br>
-            <br>
+            <section>
+                <input type="text" name="name" id="name" placeholder="Full Name">
+                <br>
+                <br>
 
-            <input type="text" name="email" id="email" placeholder="E-mail Adress">
-            <br>
-            <br>
-            <select name="position" id="position" placeholder="position">
-                <option value="employee">Employee</option>
-                <option value="worker">Worker</option>
-                <option value="manager">Manager</option>
+                <input type="text" name="email" id="email" placeholder="E-mail Adress">
+                <br>
+                <br>
+                <select name="position" id="position" >
+                    <option value="">Postion</option>
+                    <option value="employee">Employee</option>
+                    <option value="worker">Worker</option>
+                    <option value="manager">Manager</option>
 
-            </select>
+                </select>
+                <br>
+                <br>
+                <input type="password" name="password" id="password" placeholder="Password">
+            </section>
             <br>
+            
+            <section>
+                <label for="gende">Gender:</label>
+            
+                <input type="radio" name="gender" id="gender">
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="gender">
+                <label for="gender">Female</label>
+            </section>
             <br>
-            <input type="password" name="password" id="password" placeholder="Password">
+            <section>
+                <input type="checkbox" name="check1" id="check1">
+                <label for="check1">I confirm that all data are correct</label>
+            </section>
+            <br>
+            <input type="button" value="Register">
+            
 
         </form>
     </div>
