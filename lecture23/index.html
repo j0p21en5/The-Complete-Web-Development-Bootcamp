@@ -23,7 +23,7 @@
             width: 350px;
             height: 80px;
             background-color: blue;
-            
+
             border: 3px solid brown;
             border-radius: 10px;
             margin: 10px;
@@ -56,11 +56,12 @@
             }
 
         }
-        #box2{
+
+        #box2 {
             width: 350px;
             height: 80px;
             background-color: blue;
-            
+
             border: 3px solid brown;
             border-radius: 10px;
             margin: 10px;
@@ -68,6 +69,7 @@
             animation: 5s ease-in 1s infinite alternate none running leftMovement;
 
         }
+
         @keyframes leftMovement {
             from {
 
@@ -82,20 +84,46 @@
             }
 
         }
-        #circle{
+
+        #circle {
             width: 100px;
             height: 100px;
             background-color: blue;
-            
+
             border: 3px solid brown;
             border-radius: 50px;
             margin: 10px;
             position: relative;
             top: 3%;
             left: 4%;
+            animation: 5s ease-in 1s infinite alternate none running circleMovement;
         }
 
-        
+        @keyframes circleMovement {
+            0% {
+                top: 1%;
+                left: 5%;
+
+
+            }
+
+            30% {
+                top: 5%;
+                left: 90%;
+
+            }
+
+            60% {
+                top: 90%;
+                left: 10%;
+            }
+
+            100% {
+                top: 30%;
+                left: 40%;
+            }
+
+        }
     </style>
 
 </head>
@@ -114,8 +142,8 @@
 
         </div>
 
-        
-        
+
+
 
     </div>
 </body>
