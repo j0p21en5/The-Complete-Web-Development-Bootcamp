@@ -23,8 +23,9 @@
             width: 350px;
             height: 80px;
             background-color: blue;
-            border-radius: 10px;
+            
             border: 3px solid brown;
+            border-radius: 10px;
             margin: 10px;
             position: relative;
             /* animation-name: rightMovement;
@@ -37,7 +38,7 @@
 
             /* @keyframes duration | easing-function | delay |
             iteration-count | direction | fill-mode | play-state | name */
-            animation: 5s linear 1s infinite alternate both running rightMovement;
+            animation: 5s linear 1s infinite alternate none running rightMovement;
 
         }
 
@@ -50,38 +51,51 @@
 
             to {
                 top: 0;
-                left: 1200px;
+                left: 1350px;
 
             }
 
         }
-
-        #box2 {
+        #box2{
             width: 350px;
             height: 80px;
             background-color: blue;
-            border-radius: 10px;
+            
             border: 3px solid brown;
+            border-radius: 10px;
             margin: 10px;
             position: relative;
             animation: 5s ease-in 1s infinite alternate none running leftMovement;
 
         }
-
         @keyframes leftMovement {
             from {
 
-                top: 700px;
-                left: 1200px;
+                top: 620px;
+                left: 1350px;
             }
 
             to {
-                top: 700px;
-                left: 1200px;
+                top: 620px;
+                left: 0;
 
             }
 
         }
+        #circle{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            
+            border: 3px solid brown;
+            border-radius: 50px;
+            margin: 10px;
+            position: relative;
+            top: 3%;
+            left: 4%;
+        }
+
+        
     </style>
 
 </head>
@@ -93,9 +107,15 @@
 
 
         </div>
+        <div id="circle">
+
+        </div>
         <div id="box2">
 
         </div>
+
+        
+        
 
     </div>
 </body>
