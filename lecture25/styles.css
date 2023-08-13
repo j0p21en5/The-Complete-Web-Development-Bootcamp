@@ -8,10 +8,16 @@
     align-items: center;
 
     margin: auto;
-
+    transition: all 3s linear 1s;
+}
+.conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box:hover{
-    transform: rotate(45deg);
+    /* transform: rotate(45deg); */
+
 }
 p{
     font-size: 28px;
