@@ -16,7 +16,11 @@
 
 .navContainer{
     width: 100vw;
-    background-color: rgb(113, 113, 165);
+    /* background-color: rgb(113, 113, 165); */
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+
     min-height: 80px;
     display: flex;
     justify-content: center;
@@ -48,4 +52,13 @@ nav{
 #navLogo{
     font-size: 2.8rem;
     color: white;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+#navItems{
+    display: flex;
+    gap: 40px;
+
 }
