@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: space-around;
     font-size: 2rem;
+    background-color: aqua;
     /* gap: 25px; */
     /* margin-left: 15px;
     margin-right: 15px;
@@ -16,8 +17,17 @@
 } */
 }
 .container{
-    background-color: aqua;
+    
 }
 /* #list2{
     gap: 20px;
 } */
+
+#content1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
