@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .headerList{
     list-style: none;
     display: flex;
@@ -13,3 +18,6 @@
 .container{
     background-color: aqua;
 }
+/* #list2{
+    gap: 20px;
+} */
