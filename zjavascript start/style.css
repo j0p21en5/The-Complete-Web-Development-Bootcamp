@@ -1,0 +1,8 @@
+.button {
+    position: absolute;
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    /* border: solid ;
+    border-radius: 50%; */
+}
