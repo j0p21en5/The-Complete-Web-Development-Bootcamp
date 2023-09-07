@@ -1,0 +1,146 @@
+body{
+    background: rgb(0, 183, 255);
+}
+
+.pot{
+    margin-top: 120px;
+    width: 105px;
+    height: 90px;
+    background: rgb(151, 77, 77);
+    border-radius: 100%;
+}
+
+.makhan{
+    width: 95px;
+    height: 30px;
+    border-radius: 100%;
+    background: #fff;
+    margin-top: -100px;
+}
+
+.complete{
+    margin-top: 130px;
+}
+
+.feather-all{
+    margin-left: 34px;
+}
+
+.feather{
+    background: rgb(4, 163, 84);
+    width: 70px;
+    height: 70px;
+    border-radius: 100% 0%;
+    margin-top: 70px;
+    transform: rotate(-14deg);
+}
+
+.feather-2{
+    background: rgb(23, 146, 85);
+    width: 50px;
+    height: 50px;
+    margin-top: -50px;
+    margin-right: 80px;
+    border-radius: 100% 0%;
+    transform: rotate(-70deg);
+}
+
+.krishna-head{
+    background: rgb(37, 37, 37);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: -5px;
+}
+
+.hair-1{
+    background: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: -66px;
+}
+
+.hair-2{
+    background: #000;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-top: -19px;
+    margin-right: -30px;
+}
+
+.hair-3{
+    background: rgb(34, 34, 34);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin-left: -112px;
+    margin-top: -50px;
+}
+
+.ear-r{
+    background: rgb(19, 139, 209);
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-top: -3px;
+    margin-right: -35px;
+}
+
+.ear-l{
+    background: rgb(19, 139, 209);
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-top: -25px;
+    margin-left: -115px;
+}
+
+.face{
+    width: 75px;
+    height: 90px;
+    margin-right: 40px;
+    margin-top: -10px;
+    background: rgb(9, 155, 223);
+    border-radius: 60% 60% 100% 100%;
+}
+
+.eye-l, .eye-r{
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 100%;
+}
+
+.eye{
+    margin-top: -65px;
+    margin-left: 3px;
+}
+
+.eye-l{
+    position: relative;
+    margin-left: -80px;
+}
+
+.eye-r{
+    position: relative;
+    margin-left: -2px;
+    margin-top: -14px;
+}
+
+.eye-ball{
+    background: #000;
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+}
+
+.mouth{
+    width: 20px;
+    height: 10px;
+    border-radius: 40%;
+    background: rgb(7, 123, 177);
+    margin-left: -38px;
+    margin-top: 20px;
+}
