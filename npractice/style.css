@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 99vh;
+    width: 99vw;
+    background-color: rgb(78, 143, 98);
+}
+.box{
+    height: 40%;
+    width: 40%;
+    background-color: bisque;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
