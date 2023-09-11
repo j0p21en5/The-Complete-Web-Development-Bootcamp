@@ -4,4 +4,4 @@ function inputMsg() {
     let name = prompt('Enter any Key ') ;
     namasteBtn.textContent='Namaste World! : '+ name;
 
-}jay kumar SVGClipPathElement()
+}
