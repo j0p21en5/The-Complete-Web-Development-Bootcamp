@@ -2,11 +2,12 @@
 
 body { 
   margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .main{
-    display: flex;
+    /* display: flex; */
     
 
 }
@@ -14,6 +15,7 @@ body {
 .header{
     /* position: fixed; */
     float: left;
+    position: fixed;
     overflow: hidden;
     height: 100vh;
     width: 300px;
@@ -25,20 +27,36 @@ body {
     justify-content:space-around;
     
     
+    
 
 }
 .header a {
+    text-align: center;
     /* float: left; */
     /* text-align: center; */
-    padding-left: 15px;
+    
 
-    text-decoration: none;
+    /* text-decoration: none; */
 
 
 }
-.About { 
+
+.header a:link {
+    text-decoration: none;
+  }
+/* a:visited {
+    text-decoration: none;
+  } */
+
+.header a:hover{
+
+    color: white;
     
-    margin-left: 10px ;
+
+}
+.About { 
+    /* float :  right ; */
+    margin-left: 315px ;
     height: 1200px;
 }
 .Ab{
@@ -46,4 +64,9 @@ body {
 }
 .aboutHead h2 {
     color: rgb(88, 88, 167);
+}
+
+.aboutIN p{
+    font-style: italic;
+    
 }
