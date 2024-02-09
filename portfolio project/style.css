@@ -1,0 +1,35 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    overflow: hidden;
+    
+    padding: 20px 10px;
+    /* padding-left: 750px; */
+    background-color: #bfc2a5d0;
+    display: flex;
+    justify-content:space-around;
+
+}
+.header a {
+    /* float: left; */
+    text-align: center;
+    padding-left: 15px;
+
+    text-decoration: none;
+
+
+}
+.About { 
+    margin-left: 10px ;
+}
+.Ab{
+    text-decoration-line: underline;
+}
+.aboutHead h2 {
+    color: rgb(88, 88, 167);
+}
