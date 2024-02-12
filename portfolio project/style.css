@@ -231,6 +231,7 @@ color: white;
 
 .sumary{
   margin-top: 50px;
+  width: 53%;
 }
 
 .sumary h2{
@@ -294,15 +295,8 @@ color: white;
   margin-left: 6px;
 }
 
-hr {
-  border: 0;
-  height: 1px;
-  background: #333;
-  background: linear-gradient(to right, #ccc, #333, #ccc);
-}
-.sumName{
-  margin-left: 10px;
-}
+
+
 .sumurySec{
   display: flex;
 
@@ -317,3 +311,39 @@ hr {
   color:rgb(6, 31, 145);
   background-color:rgb(29, 30, 32);
 } 
+
+.sumName{
+  margin-left: 15px;
+  color:  #040B14;
+
+  
+}
+
+.sumName p{
+  font-style: italic;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #333;
+  color: rgb(31, 31, 90);
+  background: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.Education h2{
+  color: black;
+
+}
+.Education{
+  margin-top: 50px;
+}
+
+.resumesec{
+  display: flex;
+}
+
+.school {
+  margin-left: 15px;
+  
+}
