@@ -221,7 +221,7 @@ color: white;
 .Resume h2 {
   color: rgb(31, 31, 90);
 }
-
+/* resume section */
 .Resume{
   margin-left: 20px;
   margin-top: 120px;
@@ -447,5 +447,7 @@ hr {
 
 /* CONTACT SECTION */
 .Contact{
+
   margin-left: 20px;
+  margin-top: 120px;
 }
