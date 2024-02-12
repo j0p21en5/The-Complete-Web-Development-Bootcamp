@@ -285,23 +285,35 @@ color: white;
   margin: 0;
   color: #fff;
 } */
-
+/* 
 .vertical-line {
   width: 2px;
   height: 100px;
+
   background: #125688;
   margin-left: 6px;
 }
 
-/* hr {
+hr {
   border: 0;
   height: 1px;
   background: #333;
   background: linear-gradient(to right, #ccc, #333, #ccc);
-} */
+}
 .sumName{
   margin-left: 10px;
 }
 .sumurySec{
   display: flex;
+
+  float: left;
 }
+*/
+.verticala{
+  width: 200px;
+  height:2px;
+  margin-left: 1px;
+  border-width:0;
+  color:rgb(6, 31, 145);
+  background-color:rgb(29, 30, 32);
+} 
