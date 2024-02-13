@@ -455,6 +455,10 @@ hr {
   display: flex;
 }
 
+#EmailSec{
+  display: flex;
+}
+
 .material-icons{
   margin-top: 29px;
   padding-top: 4px;
@@ -465,6 +469,28 @@ hr {
   color: #42c1fc;
   text-align: center;
 }
+
+#emaillogo{
+  margin-top: 29px;
+  padding-top: 7px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #dff3fc;
+  color: #42c1fc;
+  text-align: center;
+
+  
+}
+
+
+
+
+#emaillogo:hover{
+  background: #007bb5;
+}
+
+
 .material-icons:hover{
   background: #007bb5;
 }
@@ -476,6 +502,7 @@ hr {
 .LocInfo h4{
   
   font-size:23px;
+  font-family: 'Raleway',sans-serif;
   margin-bottom: 5px;
 
 }
@@ -496,10 +523,32 @@ hr {
 
 }
 
+#phonelogo {
+  
+  font-size:33px;
+  opacity: 0.6;
+  transition: 0.3s;
+
+}
+#EmailSec i{
+  
+  font-size:23px;
+  opacity: 0.6;
+  transition: 0.3s;
+
+}
+
 #LocationSec i:hover{
   
   color: white;
   opacity: 0.6;
-  transition: 0.3s;
+  transition: 0.7s;
+
+}
+#EmailSec i:hover{
+  
+  color: white;
+  opacity: 0.6;
+  transition: 0.7s;
 
 }
