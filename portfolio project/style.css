@@ -451,3 +451,55 @@ hr {
   margin-left: 20px;
   margin-top: 120px;
 }
+#LocationSec{
+  display: flex;
+}
+
+.material-icons{
+  margin-top: 29px;
+  padding-top: 4px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #dff3fc;
+  color: #42c1fc;
+  text-align: center;
+}
+.material-icons:hover{
+  background: #007bb5;
+}
+.LocInfo {
+  margin-left: 10px;
+  
+
+}
+.LocInfo h4{
+  
+  font-size:23px;
+  margin-bottom: 5px;
+
+}
+.LocInfo p{
+  
+  font-size:14px;
+  margin: 0;
+
+}
+
+
+
+#LocationSec i{
+  
+  font-size:30px;
+  opacity: 0.6;
+  transition: 0.3s;
+
+}
+
+#LocationSec i:hover{
+  
+  color: white;
+  opacity: 0.6;
+  transition: 0.3s;
+
+}
