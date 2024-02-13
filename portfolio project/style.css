@@ -552,3 +552,17 @@ hr {
   transition: 0.7s;
 
 }
+
+.leftCont{
+  margin-top: 25px;
+  background: white;
+  padding-left: 30px;
+  height: 580px;
+  width: 450px;
+  box-shadow: 2px 2px 15px 5px grey;
+}
+
+#maps{
+  margin-left: 25px;
+  margin-top: 20px;
+}
