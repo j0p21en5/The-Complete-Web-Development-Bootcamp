@@ -7,10 +7,7 @@ body {
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
- 
 }
-
-
 
 .main {
   margin: 0;
@@ -30,7 +27,7 @@ body {
   width: 280px;
   /* padding: 20px 10px; */
   /* padding-left: 750px; */
-  background-color:  #040B14;
+  background-color: #040b14;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -39,7 +36,7 @@ body {
   position: fixed;
 }
 
-.img1{
+.img1 {
   width: 150px;
   border-radius: 50%;
   margin-left: 63px;
@@ -53,25 +50,22 @@ body {
 
   /* text-decoration: none; */
   color: rgb(103, 108, 112);
-  
- }
+}
 
 .header a:link {
   text-decoration: none;
-  
-} 
+}
 a:visited {
-    text-decoration: none;
-    
-} 
+  text-decoration: none;
+}
 
 .header a:hover {
   color: rgb(226, 226, 226);
-}  
+}
 
 .header i:hover {
-  color:#1DA1F2;
-}  
+  color: #1da1f2;
+}
 
 /* BACKGROUND IMAGE WITH MULTIPLE TEXT ANIMATION */
 
@@ -86,11 +80,7 @@ a:visited {
   background-color: #4c9c8f;
 } */
 
-
-
-
-.contbody{
-
+.contbody {
   /* margin: 0;
   padding: 0; */
   box-sizing: border-box;
@@ -102,25 +92,23 @@ a:visited {
   background-color: #252839;
 }
 
-.container h1{
+.container h1 {
   font-size: 50px;
   color: #fff;
   font-weight: 500;
 }
 
-.wrapper{
+.wrapper {
   display: inline-flex;
 }
 
-
-.fixed-txt{
+.fixed-txt {
   color: #fff;
   font-size: 50px;
   font-weight: 400;
 }
 
-
-.moving-txt{
+.moving-txt {
   margin-left: 15px;
   height: 90px;
   line-height: 90px;
@@ -137,15 +125,14 @@ a:visited {
   animation: move 6s steps(4) infinite;
 }
 
-@keyframes move{
-  100%{
+@keyframes move {
+  100% {
     top: -360px;
-
   }
 }
 
-.moving-txt li span:after{
-  content: '';
+.moving-txt li span:after {
+  content: "";
   position: absolute;
   height: 100%;
   width: 100%;
@@ -154,17 +141,13 @@ a:visited {
   animation: type 1.5s steps(10) infinite;
 }
 @keyframes type {
-  100%{
+  100% {
     left: 100%;
-    margin: 0 -35 0 35 ;
+    margin: 0 -35 0 35;
   }
-  
 }
 
-
-
-
-.Right{
+.Right {
   margin-left: 280px;
 }
 .About {
@@ -180,56 +163,45 @@ a:visited {
   color: rgb(31, 31, 90);
 }
 
-
 .abpara p {
   font-style: italic;
 }
 
-.dob{
+.dob {
   display: flex;
   /* flex-direction: row; */
 }
 
-.dob h3{
+.dob h3 {
   margin-left: 5px;
-  font-size:medium;
+  font-size: medium;
 }
 
-#bpara{
-
+#bpara {
   margin-top: 17px;
   margin-left: 7px;
-  
 }
 
-.dlogo{
+.dlogo {
   color: blue;
- 
 }
 
-.dlogo1{
-
+.dlogo1 {
   margin-left: 100px;
   color: blue;
- 
 }
 
-.dlogo2{
-
+.dlogo2 {
   margin-left: 107px;
   color: blue;
- 
 }
 
-.dlogo3{
-
+.dlogo3 {
   margin-left: 151px;
   color: blue;
- 
 }
 
 .aboutIN {
-
   margin-left: 370px;
 
   margin-right: 50px;
@@ -237,18 +209,15 @@ a:visited {
 
 .headimg h2 {
   color: white;
-  margin-left:87px ;
-
+  margin-left: 87px;
 }
 
 .headimg i {
   color: white;
-  margin-left:15px ;
+  margin-left: 15px;
   margin-bottom: 30px;
-  
-
 }
-.mediaicon{
+.mediaicon {
   margin-left: 60px;
 }
 /* .headimg {
@@ -270,19 +239,18 @@ a:visited {
   color: white;
 } */
 
-#aicon{
-
+#aicon {
   padding: 20px;
   font-size: 20px;
   width: 20px;
   text-align: center;
   text-decoration: none;
-  
+
   border-radius: 50%;
 
   color: white;
 }
-#aicon1{
+#aicon1 {
   margin-top: 15px;
   padding-top: 15px;
 }
@@ -292,13 +260,13 @@ a:visited {
 }
 
 .fa-facebook {
-background: #3B5998;
-color: white;
+  background: #3b5998;
+  color: white;
 }
 
 .fa-twitter {
-background: #55ACEE;
-color: white;
+  background: #55acee;
+  color: white;
 }
 .fa-linkedin {
   background: #007bb5;
@@ -315,35 +283,23 @@ color: white;
   color: rgb(31, 31, 90);
 }
 /* resume section */
-.Resume{
+.Resume {
   margin-left: 20px;
   margin-top: 120px;
-
 }
 
 .Resume p {
   margin-right: 53px;
 }
 
-.sumary{
+.sumary {
   margin-top: 50px;
   width: 53%;
 }
 
-.sumary h2{
+.sumary h2 {
   color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .wrapper {
   width: auto;
@@ -358,9 +314,6 @@ color: white;
   position: relative;
   margin: 0;
   display: flex;
-  
-
-  
 }
 
 /* .circle2 {
@@ -399,23 +352,21 @@ color: white;
   float: left;
 }
 */
-.verticala{
+.verticala {
   width: 95px;
-  height:2px;
+  height: 2px;
   margin-left: 1px;
-  border-width:0;
-  color:rgb(6, 31, 145);
-  background-color:rgb(29, 30, 32);
-} 
-
-.sumName{
-  margin-left: 15px;
-  color:  #040B14;
-
-  
+  border-width: 0;
+  color: rgb(6, 31, 145);
+  background-color: rgb(29, 30, 32);
 }
 
-.sumName p{
+.sumName {
+  margin-left: 15px;
+  color: #040b14;
+}
+
+.sumName p {
   font-style: italic;
 }
 
@@ -427,132 +378,118 @@ hr {
   background: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
-.Education h2{
+.Education h2 {
   color: black;
-
 }
-.Education{
+.Education {
   margin-top: 50px;
 }
 
-.resumesec{
+.resumesec {
   display: flex;
 }
 
 .school {
   margin-left: 15px;
-
 }
-.schoolName{
-
+.schoolName {
   font-style: italic;
-
 }
-.year{
+.year {
   height: 30px;
   width: 105px;
   color: #272829;
-  background-color: #E4EDF9;
+  background-color: #e4edf9;
   /* margin: 0px 0px 10px; */
   /* padding: 5px 5px; */
-  font: 17px raleway,sans-serif;
-
+  font: 17px raleway, sans-serif;
 }
 
-.year h5{
+.year h5 {
   margin: 12px;
-  
+
   padding-top: 5px;
   font-size: medium;
   font-variant-numeric: oldstyle-nums;
-
-  
 }
 
-.eduPara{
-
+.eduPara {
   margin: 15px;
 }
 
-.verticala1{
+.verticala1 {
   width: 500px;
-  height:2px;
+  height: 2px;
   margin-left: 1px;
-  border-width:0;
-  color:rgb(6, 31, 145);
-  background-color:rgb(29, 30, 32);
-} 
+  border-width: 0;
+  color: rgb(6, 31, 145);
+  background-color: rgb(29, 30, 32);
+}
 
-
-.verticala2{
+.verticala2 {
   width: 123px;
-  height:2px;
+  height: 2px;
   margin-left: 1px;
-  border-width:0;
-  color:rgb(6, 31, 145);
-  background-color:rgb(29, 30, 32);
-} 
+  border-width: 0;
+  color: rgb(6, 31, 145);
+  background-color: rgb(29, 30, 32);
+}
 
-.Hobbies{
+.Hobbies {
   margin-left: 15px;
 }
 
-
-.verticalaSkill{
+.verticalaSkill {
   width: 67px;
-  height:2px;
+  height: 2px;
   margin-left: 1px;
-  border-width:0;
-  color:rgb(6, 31, 145);
-  background-color:rgb(29, 30, 32);
-} 
+  border-width: 0;
+  color: rgb(6, 31, 145);
+  background-color: rgb(29, 30, 32);
+}
 
-.hbh4{
+.hbh4 {
   margin-left: 15px;
 }
 
 /* BOXES */
 
-.boxes{
-  
+.boxes {
   display: flex;
 }
 
-.box1{
+.box1 {
   width: 14px;
   height: 14px;
   margin: 0;
   padding: 0;
-  background: 	#5A5A5A;
+  background: #5a5a5a;
   margin-left: 7px;
 }
 
-
-.box2{
+.box2 {
   width: 14px;
   height: 14px;
   margin: 0;
   padding: 0;
-  background: 	#b8b7b7;
+  background: #b8b7b7;
   margin-left: 7px;
 }
-
 
 /* CONTACT SECTION */
-.Contact{
-
+.Contact {
   margin-left: 20px;
   margin-top: 120px;
 }
-#LocationSec{
+#LocationSec {
   display: flex;
 }
 
-#EmailSec{
+#EmailSec {
   display: flex;
 }
 
-.material-icons{
+.material-icons {
   margin-top: 29px;
   padding-top: 4px;
   height: 40px;
@@ -563,7 +500,7 @@ hr {
   text-align: center;
 }
 
-#emaillogo{
+#emaillogo {
   margin-top: 29px;
   padding-top: 7px;
   height: 40px;
@@ -572,81 +509,57 @@ hr {
   background: #dff3fc;
   color: #42c1fc;
   text-align: center;
-
-  
 }
 
-
-
-
-#emaillogo:hover{
+#emaillogo:hover {
   background: #007bb5;
 }
 
-
-.material-icons:hover{
+.material-icons:hover {
   background: #007bb5;
 }
 .LocInfo {
   margin-left: 10px;
-  
-
 }
-.LocInfo h4{
-  
-  font-size:23px;
-  font-family: 'Raleway',sans-serif;
+.LocInfo h4 {
+  font-size: 23px;
+  font-family: "Raleway", sans-serif;
   margin-bottom: 5px;
-
 }
-.LocInfo p{
-  
-  font-size:14px;
+.LocInfo p {
+  font-size: 14px;
   margin: 0;
-
 }
 
-
-
-#LocationSec i{
-  
-  font-size:30px;
+#LocationSec i {
+  font-size: 30px;
   opacity: 0.6;
   transition: 0.3s;
-
 }
 
 #phonelogo {
-  
-  font-size:33px;
+  font-size: 33px;
   opacity: 0.6;
   transition: 0.3s;
-
 }
-#EmailSec i{
-  
-  font-size:23px;
+#EmailSec i {
+  font-size: 23px;
   opacity: 0.6;
   transition: 0.3s;
-
 }
 
-#LocationSec i:hover{
-  
+#LocationSec i:hover {
   color: white;
   opacity: 0.6;
   transition: 0.7s;
-
 }
-#EmailSec i:hover{
-  
+#EmailSec i:hover {
   color: white;
   opacity: 0.6;
   transition: 0.7s;
-
 }
 
-.leftCont{
+.leftCont {
   margin-top: 25px;
   background: white;
   padding-left: 30px;
@@ -655,12 +568,12 @@ hr {
   box-shadow: 1px 1px 20px 5px grey;
 }
 
-#maps{
+#maps {
   margin-left: 11px;
   margin-top: 20px;
 }
 
-.rightCont{
+.rightCont {
   margin-left: 35px;
   margin-top: 25px;
   background: white;
@@ -670,6 +583,6 @@ hr {
   box-shadow: 1px 1px 20px 5px grey;
 }
 
-.contactSec1{
+.contactSec1 {
   display: flex;
 }
