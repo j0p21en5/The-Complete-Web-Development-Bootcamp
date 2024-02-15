@@ -127,6 +127,41 @@ a:visited {
   overflow: hidden;
 }
 
+.moving-txt li {
+  color: #01fe87;
+  list-style: none;
+  font-size: 50px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: move 6s steps(4) infinite;
+}
+
+@keyframes move{
+  100%{
+    top: -360px;
+
+  }
+}
+
+.moving-txt li span:after{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #343f4f;
+  border-left: 2px solid #01fe87;
+  animation: type 1.5s steps(10) infinite;
+}
+@keyframes type {
+  100%{
+    left: 100%;
+    margin: 0 -35 0 35 ;
+  }
+  
+}
+
+
 
 
 .Right{
