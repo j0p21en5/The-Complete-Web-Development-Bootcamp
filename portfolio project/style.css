@@ -584,20 +584,33 @@ hr {
   height: 580px;
   width: 590px;
   box-shadow: 1px 1px 20px 5px grey;
+  padding: 30px;
 }
 
 .contactSec1 {
   display: flex;
 }
 
-.rightCont form{
-  margin-top: 30px;
+
+.email-name-sec{
+  display: flex;
+}
+
+.contact-email-sec{
+  margin-left: 40px;
+
 }
 
 .contName{
+  margin-top: 10px;
+  height: 35px;
+  width: 200px;
+  
+  border: solid 1px;
+  border-color: 	#7393B3;
   
 }
-
-.labelName{
-  margin-bottom: 100px;
+input[type=text]:focus {
+  outline: none; 
+  box-shadow: 0 0 0 1px lightblue;
 }
