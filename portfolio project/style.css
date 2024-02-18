@@ -19,9 +19,6 @@ body {
 }
 
 .header {
-
-
-
   /* position: fixed; */
   /* float: left; */
   /* position: fixed; */
@@ -591,50 +588,46 @@ hr {
   display: flex;
 }
 
-
-.email-name-sec{
+.email-name-sec {
   display: flex;
 }
 
-.contact-email-sec{
+.contact-email-sec {
   margin-left: 40px;
-
 }
 
-.contName{
+.contName {
   margin-top: 10px;
   height: 35px;
   width: 200px;
-  
+
   border: solid 1px;
-  border-color: 	#7393B3;
-  
+  border-color: #7393b3;
 }
-input[type=text]:focus {
-  outline: none; 
+input[type="text"]:focus {
+  outline: none;
   box-shadow: 0 0 0 1px lightblue;
 }
 
-.contMail{
+.contMail {
   margin-top: 10px;
   height: 35px;
   width: 200px;
-  
+
   border: solid 1px;
-  border-color: 	#7393B3;
-  
+  border-color: #7393b3;
 }
 
-input[type=Email]:focus {
-  outline: none; 
+input[type="Email"]:focus {
+  outline: none;
   box-shadow: 0 0 0 1px lightblue;
 }
 
-.contName1{
+.contName1 {
   font-weight: 1;
   color: #272829;
 }
-.contMail1{
+.contMail1 {
   font-weight: 1;
   color: #272829;
 }
