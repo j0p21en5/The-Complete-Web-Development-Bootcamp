@@ -21,7 +21,7 @@ body {
 .header {
 
 
-  
+
   /* position: fixed; */
   /* float: left; */
   /* position: fixed; */
@@ -582,10 +582,22 @@ hr {
   background: white;
   padding-left: 30px;
   height: 580px;
-  width: 560px;
+  width: 590px;
   box-shadow: 1px 1px 20px 5px grey;
 }
 
 .contactSec1 {
   display: flex;
+}
+
+.rightCont form{
+  margin-top: 30px;
+}
+
+.contName{
+  
+}
+
+.labelName{
+  margin-bottom: 100px;
 }
