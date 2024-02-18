@@ -629,3 +629,12 @@ input[type=Email]:focus {
   outline: none; 
   box-shadow: 0 0 0 1px lightblue;
 }
+
+.contName1{
+  font-weight: 1;
+  color: #272829;
+}
+.contMail1{
+  font-weight: 1;
+  color: #272829;
+}
