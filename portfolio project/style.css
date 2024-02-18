@@ -614,3 +614,18 @@ input[type=text]:focus {
   outline: none; 
   box-shadow: 0 0 0 1px lightblue;
 }
+
+.contMail{
+  margin-top: 10px;
+  height: 35px;
+  width: 200px;
+  
+  border: solid 1px;
+  border-color: 	#7393B3;
+  
+}
+
+input[type=Email]:focus {
+  outline: none; 
+  box-shadow: 0 0 0 1px lightblue;
+}
