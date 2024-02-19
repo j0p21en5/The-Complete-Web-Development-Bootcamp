@@ -598,21 +598,23 @@ hr {
 
 .contName {
   margin-top: 10px;
-  height: 35px;
-  width: 200px;
+  height: 40px;
+  width: 243px;
+  padding: 6px 12px;
 
   border: solid 1px;
   border-color: #7393b3;
 }
-input[type="text"]:focus {
+input[type="text"]:focus  {
   outline: none;
   box-shadow: 0 0 0 1px lightblue;
 }
 
 .contMail {
   margin-top: 10px;
-  height: 35px;
-  width: 200px;
+  height: 40px;
+  width: 243px;
+  padding: 6px 12px;
 
   border: solid 1px;
   border-color: #7393b3;
@@ -630,4 +632,56 @@ input[type="Email"]:focus {
 .contMail1 {
   font-weight: 1;
   color: #272829;
+  
+}
+
+.contSubject{
+  margin-top: 10px;
+  height: 45px;
+  width: 525px;
+  padding: 6px 12px;
+
+  border: solid 1px;
+  border-color: #7393b3;
+
+}
+
+.contSubject1{
+  
+  font-weight: 1;
+  color: #272829;
+
+}
+
+.subject-sec{
+  margin-top: 30px;
+
+}
+
+.contMessage{
+
+  margin-top: 10px;
+  height: 250px;
+  width: 525px;
+  padding: 6px 12px;
+
+  border: solid 1px;
+  border-color: #7393b3;
+
+}
+
+.contMessage1{
+  font-weight: 1;
+  color: #272829;
+}
+
+/* textarea */
+textarea:focus{
+  outline: none;
+  box-shadow: 0 0 0 1px lightblue;
+
+}
+
+.message-sec{
+  margin-top: 30px;
 }
