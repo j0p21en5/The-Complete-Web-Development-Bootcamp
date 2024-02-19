@@ -605,7 +605,7 @@ hr {
   border: solid 1px;
   border-color: #7393b3;
 }
-input[type="text"]:focus  {
+input[type="text"]:focus {
   outline: none;
   box-shadow: 0 0 0 1px lightblue;
 }
@@ -632,10 +632,9 @@ input[type="Email"]:focus {
 .contMail1 {
   font-weight: 1;
   color: #272829;
-  
 }
 
-.contSubject{
+.contSubject {
   margin-top: 10px;
   height: 45px;
   width: 525px;
@@ -643,23 +642,18 @@ input[type="Email"]:focus {
 
   border: solid 1px;
   border-color: #7393b3;
-
 }
 
-.contSubject1{
-  
+.contSubject1 {
   font-weight: 1;
   color: #272829;
-
 }
 
-.subject-sec{
+.subject-sec {
   margin-top: 30px;
-
 }
 
-.contMessage{
-
+.contMessage {
   margin-top: 10px;
   height: 210px;
   width: 525px;
@@ -667,32 +661,29 @@ input[type="Email"]:focus {
 
   border: solid 1px;
   border-color: #7393b3;
-
 }
 
-.contMessage1{
+.contMessage1 {
   font-weight: 1;
   color: #272829;
 }
 
 /* textarea */
-textarea:focus{
+textarea:focus {
   outline: none;
   box-shadow: 0 0 0 1px lightblue;
-
 }
 
-.message-sec{
+.message-sec {
   margin-top: 30px;
-  
 }
 
-.Contact{
+.Contact {
   margin-bottom: 120px;
 }
 
-input[type=submit] {
-  background-color: #149DDD;
+input[type="submit"] {
+  background-color: #149ddd;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -703,6 +694,6 @@ input[type=submit] {
   margin-left: 185px;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #2ba7e0;
 }
